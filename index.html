@@ -3,12 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="script.js"></script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
        <main>
-            <img src="./resources/background.avif" alt="A simple ass background image~">
+            <img src="./resources/background.avif"  alt="A simple ass background image~">
             <section class="form-section">
                 <header>
                     <h3>This waterfall will send you to another world, so provide me with your details before you leave ;)</h3>
@@ -28,15 +27,15 @@
                     </div>
                     <div>
                         <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="number" maxlength="10" required>
+                        <input type="tel" id="phoneNumber" maxlength="10" required>
                     </div>
                     <div>
                         <label for="userPassword">PASSWORD</label>
-                        <input type="password" minlength="8" required>
+                        <input type="password" minlength="8" id="userPassword" required>
                     </div>
                     <div>
-                        <label for="userPassword">CONFIRM PASSWORD</label>
-                        <input type="password" minlength="8" required>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" minlength="8" id="confirmPassword" required>
                     </div>
                 </form>
                 <footer>
